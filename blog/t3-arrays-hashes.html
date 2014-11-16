@@ -1,0 +1,32 @@
+<h1> Technical Blog #3 </h1>
+<h4> t2-arrays-hashes.html </h4>
+
+<h3> Arrays </h3>
+Arrays are very versatile lists. They can be lists of integers, strings, even other arrays. Here are some examples of what arrays might look like: </p>
+
+{% highlight ruby %}
+array= [1, 2, 3, 4]
+names= [sally, susie, sam, seth]
+{% endhighlight %}
+
+There are two ways to make an array:
+{% highlight ruby %}
+array=array.new
+array=[]
+{% endhighlight %}
+
+<p> The objects in an array are seperated by a comma and each object has a reference number. The first object is refered to as 0, and the second is 1 etc. To call the object the refrence number is placed in brackets next to the arrays name. You can add objects to an array using << or .push. </p>
+
+<h3> Hashes </h3>
+
+<p> Hashes differ from arrays because they have key and value pairs. The access the value of a hash you refrence the key. In the example below, "street" is a key and "upland" is the value. A hash looks like this: </p>
+
+{% highlight ruby %}
+address = {
+  "street" => "Upland"
+  "city" => "Kentfield"
+  "state" => "California"
+}
+{% endhighlight %}
+
+<p> Hashes are made in the same way that arrays are made, using either hash=hash.new or hash=[]. If you want to add a key value pair to a hash you can do so like this: address[:country]=>USA.</p>
