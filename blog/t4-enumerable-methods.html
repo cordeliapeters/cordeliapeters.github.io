@@ -1,17 +1,22 @@
-<h1> Technical Blog #4 <h1>
-<h4> t4-enumerable-methods.html <h4>
+<h1> Technical Blog #4 </h1>
+<h4> t4-enumerable-methods.html </h4>
 
-<h3> Enumerable #Map <h3>
+<h3> Enumerable #Map </h3>
 
 <p> A map is used when you want to transform each element in an array. It is possible to do this with a for loop, but if you want a transformed copy of the array without altering the original you should use map. The map method makes a copy of the array, so you can continue to alter the original array but also alter the new one seperatrely. </p>
 
 <p> Map accepts a collection of code and acts upon each element in the collection. Map then returns a transformed collection. Lets take a look at an example </p>
 
-<p> array= ['bob', 'sally', 'sue'].map{|name| name.capitalize} </p>
-<p> puts array.join(", ") #=> "Bob, Sally, Sue" </p>
+```ruby
+array= ['bob', 'sally', 'sue'].map{|name| name.capitalize}
+puts array.join(", ") #=> "Bob, Sally, Sue"
+```
 
- <p> Make sense? </p>
+<p> Make sense? </p>
+
 <p> If you decide you want map to modify the array you can just use map! instead. Lets look at one more example. </p>
 
-<p> array= [1, 2, 3, 4, 5].map{|a| a + a} </p>
-<p> puts array.join(", ") #=> "2, 4, 3, 8, 10" </p>
+```ruby
+array= [1, 2, 3, 4, 5].map{|a| a + a}
+puts array.join(", ") #=> "2, 4, 3, 8, 10"
+```

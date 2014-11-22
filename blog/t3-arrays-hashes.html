@@ -1,34 +1,21 @@
- <!-- <!DOCTYPE html>
-<html>
-<head>
-  <title> Cordeliapeters.github.io </title>
- <link type="text/css" rel="stylesheet" href="blog_stylesheet.css"/>
-</head>
-
-<body>
-  <h1>Cordelia Peters</h1>
-  <div id="header">
-    <h3><a href="../cordeliapeters.github.io/my_blog.html"> My Blog </a></h3>    <h3> Photos </h3>
-    <h3> Projects </h3>
-    <h3><a href="../cordeliapeters.github.io/contact-me.html"> Contact Me </a>
-  </div> -->
-
 <h1> Technical Blog #3 </h1>
 <h4> t2-arrays-hashes.html </h4>
 
 <h3> Arrays </h3>
-Arrays are very versatile lists. They can be lists of integers, strings, even other arrays. Here are some examples of what arrays might look like: </p>
 
-{% highlight ruby %}
+<p> Arrays are very versatile lists. They can be lists of integers, strings, even other arrays. Here are some examples of what arrays might look like: </p>
+
+```ruby
 array= [1, 2, 3, 4]
-names= [sally, susie, sam, seth]
-{% endhighlight %}
+names= [sally, susie, sam, set]
+```
 
 There are two ways to make an array:
-{% highlight ruby %}
+
+```ruby
 array=array.new
 array=[]
-{% endhighlight %}
+```
 
 <p> The objects in an array are seperated by a comma and each object has a reference number. The first object is refered to as 0, and the second is 1 etc. To call the object the refrence number is placed in brackets next to the arrays name. You can add objects to an array using << or .push. </p>
 
@@ -36,12 +23,12 @@ array=[]
 
 <p> Hashes differ from arrays because they have key and value pairs. The access the value of a hash you refrence the key. In the example below, "street" is a key and "upland" is the value. A hash looks like this: </p>
 
-{% highlight ruby %}
+```ruby
 address = {
   "street" => "Upland"
   "city" => "Kentfield"
   "state" => "California"
 }
-{% endhighlight %}
+```
 
 <p> Hashes are made in the same way that arrays are made, using either hash=hash.new or hash=[]. If you want to add a key value pair to a hash you can do so like this: address[:country]=>USA.</p>
