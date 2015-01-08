@@ -52,7 +52,7 @@ a img {
   clear: all;
   float: center;
   background-color: #d8f0f5;
-  border-color: white;
+  text-align: center;
   width: 1000px;
   height: 10px;
 }
