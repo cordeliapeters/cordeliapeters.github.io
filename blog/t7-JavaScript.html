@@ -1,6 +1,25 @@
-<h1> JavaScript </h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Blog Template </title>
+  <link type="text/css" rel="stylesheet" href="blog_stylesheet.css"/>
+</head>
 
-<h3> Ruby arrays vs. JavaScript arrays </h3>
+<body>
+
+  <div id="name">
+    <h1> Cordelia Peters </h1>
+  </div>
+
+  <div id= "menu">
+    <a href="my_blog.html"> <p> My Blog </p> </a>
+    <a href="projects.html"> <p> Projects </p></a>
+    <a href="contact-me.html"> <p> Contact Me </p> </a>
+  </div>
+
+  <div id= "the_blog">
+
+<h1> Ruby arrays vs. JavaScript arrays </h1>
 
 <p> This blog post will discuss the difference between arrays in Ruby and arrays in Javascript. It will cover how they are first created, a few methods and how they differ (such as delete, reverse, all, any, index) and how to apply each to both of them. This is only a brief list of the differences but covers some of the basic differences between working with the two languages. </p>
 
@@ -15,3 +34,12 @@
 <p> <strong> All. </strong> Using array = ["1", "2", "3"], if we want to check if all of the items in the array are less than 4 we do this: array.all?{|x| x < 4}. This will return true to our console. In order to execute this command in JavaScript we type array.every(function(x) {return x < 4;});. This will also return true. Remember its important to include the semi-colon at the end and to pay attention to the suble differences between the two languages. The same syntax applies to the command <strong> any </strong>. The concept of any differs from that of all (so pay attention to what you want!) but the syntax is the same. <p>
 
 <p> <strong> Each </strong> is one of the most common words that I have been using so far in Phase 0. Thus, it is definetly important to understand the differences in how to apply it. In Ruby, if you want to put all of the elements in the array to the screen you do this: array.each{|x| puts x}. In JavaScript it is array.forEach (function(x) {console.log(x);}). The Ideas here are the same, the syntax only differs and (in my opinion) it comes out to be a little bit more complicated in JavaScript. <p>
+    </div>
+
+  <div id="footer">
+    <a href="cordeliapeters.github.io.html"> <strong> Home </strong> </a>
+    <p> Thanks for visiting my site! Please contact me at cordelia.peters@gmail.com with any questions </p>
+  </div>
+
+</body>
+</html>
